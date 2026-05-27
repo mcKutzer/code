@@ -1,0 +1,71 @@
+{
+  "asset_caps": {
+    "VUAA.DE": 0.5,
+    "EXSA.DE": 0.45,
+    "IS3N.DE": 0.2,
+    "CSBGE3.MI": 0.25,
+    "SXRP.DE": 0.25,
+    "IEAA.L": 0.2,
+    "IGBY.AS": 0.15,
+    "XAD5.MI": 0.1,
+    "IQQ6.DE": 0.1,
+    "XEON.DE": 0.3,
+    "IHYG.L": 0.1
+  },
+  "asset_floors": {
+    "VUAA.DE": 0.0,
+    "EXSA.DE": 0.0,
+    "IS3N.DE": 0.0,
+    "CSBGE3.MI": 0.0,
+    "SXRP.DE": 0.0,
+    "IEAA.L": 0.0,
+    "IGBY.AS": 0.0,
+    "XAD5.MI": 0.0,
+    "IQQ6.DE": 0.0,
+    "XEON.DE": 0.0,
+    "IHYG.L": 0.0
+  },
+  "groups": {
+    "Equities": {
+      "tickers": [
+        "VUAA.DE",
+        "EXSA.DE",
+        "IS3N.DE"
+      ],
+      "floor": 0.25,
+      "cap": 0.9
+    },
+    "Government Bonds": {
+      "tickers": [
+        "CSBGE3.MI",
+        "SXRP.DE",
+        "IGBY.AS"
+      ],
+      "floor": 0.0,
+      "cap": 0.45
+    },
+    "Corp + HY": {
+      "tickers": [
+        "IEAA.L",
+        "IHYG.L"
+      ],
+      "floor": 0.0,
+      "cap": 0.25
+    },
+    "Hard Assets": {
+      "tickers": [
+        "XAD5.MI",
+        "IQQ6.DE"
+      ],
+      "floor": 0.0,
+      "cap": 0.2
+    },
+    "Cash": {
+      "tickers": [
+        "XEON.DE"
+      ],
+      "floor": 0.0,
+      "cap": 0.3
+    }
+  }
+}
